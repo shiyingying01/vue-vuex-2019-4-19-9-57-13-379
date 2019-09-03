@@ -44,7 +44,7 @@ export default {
     active:function() {
       this.mylist =this.$store.getters.getactive;
     },
-    complete() {
+    complete:function() {
 
        this.mylist =this.$store.getters.getcomplete;
     },
